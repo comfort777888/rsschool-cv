@@ -8,3 +8,4 @@
 **Code examples:** projects in my github repo: https://github.com/comfort777888 \
 **Education:** Alem school (42school system): from february 2022-until now\
 **Languages:** Kazakh: native language, Russian: fluent, English - Upper-Intermediate
+**Hobies:** Reading, volleyball
