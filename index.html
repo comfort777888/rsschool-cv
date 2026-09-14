@@ -1,17 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CV of Akhmetova Aray" />
+    <title>Akhmetova Aray - CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__content">
+          <img
+            class="header__photo"
+            src="assets/avatar.jpg"
+            alt="Portrait of Akhmetova Aray"
+          />
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-</head>
+          <div class="header__info">
+            <h1>Akhmetova Aray</h1>
+            <p class="header__profession">Frontend Developer</p>
 
-<body>
-  <script src="js/scripts.js"></script>
-</body>
+            <nav class="navigation" aria-label="Main navigation">
+              <ul class="navigation__list">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code examples</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <aside class="sidebar">
+          <section class="section" id="contacts">
+            <h2>Contacts</h2>
+
+            <ul class="contact-list">
+              <li>
+                <strong>Email:</strong>
+                <a href="mailto:buh01234@mail.ru">buh01234@mail.ru</a>
+              </li>
+              <li>
+                <strong>GitHub:</strong>
+                <a
+                  href="https://github.com/comfort777888"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/comfort777888
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section" id="skills">
+            <h2>Skills</h2>
+
+            <ul class="skills-list">
+              <li>Go</li>
+              <li>JavaScript</li>
+              <li>Docker</li>
+              <li>PostgreSQL</li>
+              <li>SQLite</li>
+              <li>Git</li>
+              <li>Postman</li>
+            </ul>
+          </section>
+        </aside>
+
+        <div class="content">
+          <section class="section" id="about">
+            <h2>About me</h2>
+
+            <p>
+              I worked as an accountant, but I decided to change my profession
+              and become a programmer. Programming suits my character and
+              abilities, and I enjoy learning new things and solving problems.
+            </p>
+
+            <p>
+              I am motivated to develop my technical skills, gain practical
+              experience and grow as a software developer.
+            </p>
+          </section>
+
+          <section class="section" id="code">
+            <h2>Code examples</h2>
+
+            <p>
+              Examples of my projects and code can be found in my
+              <a
+                href="https://github.com/comfort777888"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub repository </a
+              >.
+            </p>
+
+            <pre><code>function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet("Aray"));</code></pre>
+          </section>
+
+          <section class="section" id="education">
+            <h2>Education</h2>
+
+            <article class="education-item">
+              <h3>Alem School</h3>
+              <p>42 School system</p>
+              <p>February 2022 – January 2023</p>
+            </article>
+          </section>
+
+          <section class="section" id="languages">
+            <h2>Languages</h2>
+
+            <ul class="languages-list">
+              <li><strong>Kazakh:</strong> Native</li>
+              <li><strong>Russian:</strong> Fluent</li>
+              <li><strong>English:</strong> Upper-Intermediate</li>
+            </ul>
+          </section>
+
+          <section class="section" id="hobbies">
+            <h2>Hobbies</h2>
+
+            <ul class="hobbies-list">
+              <li>Reading</li>
+              <li>Volleyball</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <a
+          href="https://github.com/comfort777888"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+
+        <span>© 2026</span>
+
+        <a href="https://rs.school/" target="_blank" rel="noopener noreferrer">
+          <img
+            class="footer__logo"
+            src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/fullstack-engineering/tasks/cv/assets/rs-school-logo.svg"
+            alt="RS School logo"
+          />
+        </a>
+      </footer>
+      ```
+    </div>
+  </body>
 </html>
